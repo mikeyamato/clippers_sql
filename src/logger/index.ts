@@ -7,7 +7,7 @@ const logger = createLogger({
 		format.colorize({ all: true, colors: CUSTOM_COLORIZE }),
 		format.simple(),
     format.timestamp(),
-    format.errors({ stack: true }),
+    // format.errors({ stack: true }),
     format.splat(),
     format.json()
   ),
