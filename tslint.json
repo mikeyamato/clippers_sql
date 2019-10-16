@@ -9,6 +9,7 @@
     "interface-name": false,
     "no-implicit-dependencies": [true, "dev"],
     "member-access": [true, "no-public"],
-    "no-console": [true, "warning"]
+    "no-console": [true, "warning"],
+    "jsdoc-format": [true, "check-multiline-start"]
   }
 }
